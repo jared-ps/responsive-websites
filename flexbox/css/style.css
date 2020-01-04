@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.centered {
+    padding: 0 1.125em;
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    background: red;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4em;
+    }
+}
