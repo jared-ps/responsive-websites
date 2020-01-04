@@ -88,6 +88,12 @@ footer {
     background-color: #AFC2D5;
   }
 
+  .col-3 {
+    width: 33.33%;
+    height: 320px;
+    float: left;
+  }
+
   #column-1 {
     background-color: #CCDDD3;
   }
